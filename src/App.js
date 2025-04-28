@@ -73,7 +73,7 @@ function App() {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
 
-        <select value={selectedType} onChange={(e) => setSelectedType(e.target.value)}>
+        <select className='dropdown' value={selectedType} onChange={(e) => setSelectedType(e.target.value)}>
           <option value="">All Types</option>
           {uniqueTypes.map((type) => (
             <option key={type} value={type}>

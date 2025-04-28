@@ -22,6 +22,10 @@
   border: 1px solid #ccc;
 }
 
+.dropdown{
+  text-transform: capitalize;
+}
+
 .pokemon-list {
   display: flex;
   flex-wrap: wrap;
